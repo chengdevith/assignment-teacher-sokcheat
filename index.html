@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body id="home-page">
+    <header>
+      <div class="container">
+        <nav>
+          <a href="#" class="logo">Portfolio</a>
+          <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+              <a href="project.html">Projects</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Page Content -->
+    <section class="hero">
+      <div class="container">
+        <h1>Hi, I'm Cheng Devith</h1>
+        <p>
+          Web Developer & UI/UX Designer creating modern and responsive web
+          experiences
+        </p>
+        <a href="#" class="btn" onclick="showPage('projects-page')"
+          >View My Work</a
+        >
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-img">
+            <img
+              src="https://cdn.rafled.com/anime-icons/images/922ee22317e5467d9834a4510790377d55b66bed8023c927fba2f394c550dae2.jpg"
+              alt="profile"
+            />
+          </div>
+          <div class="about-text">
+            <p>
+              Hello! I'm a passionate web developer with 5 years of experience
+              creating beautiful, functional websites and applications. My
+              approach combines clean code with intuitive design to build
+              digital experiences that users love.
+            </p>
+            <p>
+              With expertise in front-end and back-end technologies, I deliver
+              complete solutions that not only look great but also perform
+              flawlessly across all devices. When I'm not coding, you can find
+              me hiking with my dog or experimenting with new recipes in the
+              kitchen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>HTML5</h3>
+          </div>
+          <div class="skill-card">
+            <h3>CSS3</h3>
+          </div>
+          <div class="skill-card">
+            <h3>JavaScript</h3>
+          </div>
+          <div class="skill-card">
+            <h3>React</h3>
+          </div>
+          <div class="skill-card">
+            <h3>Node.js</h3>
+          </div>
+          <div class="skill-card">
+            <h3>UI/UX</h3>
+          </div>
+          <div class="skill-card">
+            <h3>Responsive Design</h3>
+          </div>
+          <div class="skill-card">
+            <h3>Git</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Page Content (Hidden by default) -->
+    <div id="projects-page" style="display: none">
+      <section class="hero">
+        <div class="container">
+          <h1>My Projects</h1>
+          <p>A showcase of my recent work and personal projects</p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>E-commerce Website</h3>
+              <p>
+                A fully responsive e-commerce platform with shopping cart
+                functionality and payment integration.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>Task Management App</h3>
+              <p>
+                A productivity application built with React that helps users
+                organize and track their daily tasks.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>Restaurant Website</h3>
+              <p>
+                A modern website for a local restaurant featuring online
+                reservations and mobile-friendly design.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>Weather Dashboard</h3>
+              <p>
+                An interactive weather application that displays current and
+                forecasted weather conditions.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>Portfolio Template</h3>
+              <p>
+                A customizable portfolio template for creative professionals to
+                showcase their work.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img">
+              <p>Project Image</p>
+            </div>
+            <div class="project-details">
+              <h3>Blog Platform</h3>
+              <p>
+                A content management system allowing users to create, edit, and
+                publish blog posts.
+              </p>
+              <a href="#" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Contact Page Content (Hidden by default) -->
+    <div id="contact-page" style="display: none">
+      <section class="hero">
+        <div class="container">
+          <h1>Contact Me</h1>
+          <p>Let's discuss how we can work together on your next project</p>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-container">
+            <div class="contact-info">
+              <h2>Get In Touch</h2>
+              <p>
+                Feel free to reach out if you're looking for a developer, have a
+                question, or just want to connect.
+              </p>
+
+              <div class="contact-item">
+                <div>📍</div>
+                <span>New York, NY</span>
+              </div>
+              <div class="contact-item">
+                <div>📧</div>
+                <span>alex@example.com</span>
+              </div>
+              <div class="contact-item">
+                <div>📱</div>
+                <span>+1 (123) 456-7890</span>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h2>Send Me a Message</h2>
+              <form>
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" id="subject" />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>© 2025 Cheng Devith. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">📱</a>
+          <a href="#" class="social-link">📷</a>
+          <a href="#" class="social-link">🐦</a>
+          <a href="#" class="social-link">📃</a>
+        </div>
+        <p>Made with ❤️ ISTAD</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile navigation toggle
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
